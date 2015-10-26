@@ -3,6 +3,7 @@ data
 ^\.*
 !.gitignore
 !.bowerrc
+bundle.js
 
 
 .DS_Store

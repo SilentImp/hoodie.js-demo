@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "type": "app",
   "dependencies": {
-    "hoodie-server": "^4.0.2",
+    "babelify": "^6.4.0",
     "hoodie-plugin-appconfig": "^2.0.1",
     "hoodie-plugin-email": "^1.0.0",
-    "hoodie-plugin-users": "^2.2.2"
+    "hoodie-plugin-users": "^2.2.2",
+    "hoodie-server": "^4.0.2"
   },
   "scripts": {
-    "start": "node node_modules/hoodie-server/bin/start"
+    "start": "node node_modules/hoodie-server/bin/start",
+    "rebuild": "browserify ./www/assets/js/script.js -t babelify -o ./www/assets/js/bundle.js",
+    "watch": "watchify ./www/assets/js/script.js -t babelify -o ./www/assets/js/bundle.js"
   },
   "hoodie": {
     "plugins": [

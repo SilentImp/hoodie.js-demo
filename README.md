@@ -4,12 +4,16 @@
 
     // Установим hoodie (http://docs.hood.ie/en/start/)
     npm install -g hoodie-cli
-    // Клонировать этот репозиторий
+    // Установим browserify
+    npm install -g browserify
+    // Клонируем репозиторий
     git clone git@github.com:SilentImp/hoodie.js-demo.git
-    // Войти в директорий
+    // Войдем директорий
     cd hoodie.js-demo
     // Установим зависимости
     npm install
+    // Сборка скрипт для браузера (так как использован es6)
+    npm run rebuild
     // Запустим hoodie-сервер
     hoodie start
     // Откроем в браузере панель администрирования и создадим пользователя test
