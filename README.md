@@ -4,7 +4,11 @@
 
     // Установим hoodie (http://docs.hood.ie/en/start/)
     npm install -g hoodie-cli
-    // Установим зависимости (находясь в папке app)
+    // Клонировать этот репозиторий
+    git clone git@github.com:SilentImp/hoodie.js-demo.git
+    // Войти в директорий
+    cd hoodie.js-demo
+    // Установим зависимости
     npm install
     // Запустим hoodie-сервер
     hoodie start
@@ -35,12 +39,22 @@
 
 # Разрешение конфликтов
 
-> jan [2:23 PM]
+> *jan*
 > @silentimp: in ​_theory_​ it works just like CouchDB conflict handling
 > in ​_practice_​: the old/current Hoodie version keeps the conflicts only on the server. the new Hoodie version will sync conflicts to the client as well
+> *silentimp*
+> so currently i can’t handle conflicts from frontend, right?
+> *jan*
+> correct
 
-> silentimp [2:23 PM]
-so currently i can’t handle conflicts from frontend, right?
+# А зачем там вообще jQuery?!
 
-> jan [2:25 PM]
-correct
+> _ola_
+> we used to need jquery b/c of promises, but this will be obsolete with the new version
+> _silentimp_
+> great to hear it!
+> when you plan to release it if this is not a secret? (edited)
+> _ola_
+as soon as finished ^^
+> _ola_
+> http://gr2m.github.io/milestones/
