@@ -39,12 +39,18 @@
 
 # Разрешение конфликтов
 
-> *jan*
+> **jan**
+
 > @silentimp: in ​_theory_​ it works just like CouchDB conflict handling
+
 > in ​_practice_​: the old/current Hoodie version keeps the conflicts only on the server. the new Hoodie version will sync conflicts to the client as well
-> *silentimp*
+
+> **silentimp**
+
 > so currently i can’t handle conflicts from frontend, right?
-> *jan*
+
+> **jan**
+
 > correct
 
 # А зачем там вообще jQuery?!
