@@ -8,7 +8,7 @@
     npm install -g browserify
     // Клонируем репозиторий
     git clone git@github.com:SilentImp/hoodie.js-demo.git
-    // Войдем директорий
+    // Войдем в директорий
     cd hoodie.js-demo
     // Установим зависимости
     npm install
