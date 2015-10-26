@@ -52,12 +52,13 @@
 
 # А зачем там вообще jQuery?!
 
-> _ola_
+> **ola**
 > we used to need jquery b/c of promises, but this will be obsolete with the new version
-> _silentimp_
+
+> **silentimp**
 > great to hear it!
 > when you plan to release it if this is not a secret? (edited)
-> _ola_
+
+> **ola**
 as soon as finished ^^
-> _ola_
 > http://gr2m.github.io/milestones/
